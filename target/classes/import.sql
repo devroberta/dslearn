@@ -12,3 +12,5 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (2, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 1);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
+
+INSERT INTO tb_course(name, img_Uri, img_Gray_Uri) VALUES ('BootCamp HTML', 'https://prod-discovery.edx-cdn.org/media/course/image/0e575a39-da1e-4e33-bb3b-e96cc6ffc58e-8372a9a276c1.png', 'https://thumbs.dreamstime.com/b/arte-em-linha-da-ilustra%C3%A7%C3%A3o-garatuja-do-curso-com-preto-e-branco-vetor-fundo-de-papel-133082069.jpg');
