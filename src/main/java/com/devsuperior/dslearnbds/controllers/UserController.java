@@ -1,4 +1,4 @@
-package com.devsuperior.dslearnbds.controller;
+package com.devsuperior.dslearnbds.controllers;
 
 import com.devsuperior.dslearnbds.dto.UserDTO;
 import com.devsuperior.dslearnbds.services.UserService;

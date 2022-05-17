@@ -1,4 +1,7 @@
-package com.devsuperior.dslearnbds.resources.exceptions;
+package com.devsuperior.dslearnbds.controllers.exceptions;
+
+import com.devsuperior.dslearnbds.controllers.exceptions.FieldMessage;
+import com.devsuperior.dslearnbds.controllers.exceptions.StandardError;
 
 import java.util.ArrayList;
 import java.util.List;
