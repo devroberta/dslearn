@@ -18,13 +18,13 @@ import java.util.Optional;
 @Service
 public class UserService implements UserDetailsService {
 
+  private static Logger logger = LoggerFactory.getLogger(UserService.class);
+
   @Autowired
   private UserRepository repository;
 
   @Autowired
   private AuthService authService;
-
-  private static Logger logger = LoggerFactory.getLogger(UserService.class);
 
   @Transactional
   public UserDTO findById(Long id) {
